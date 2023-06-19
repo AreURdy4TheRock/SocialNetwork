@@ -195,7 +195,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\Models\UserRegistrarionData.cs" />
+    <Compile Include="BLL\Exceptions\UserNotFoundException.cs" />
+    <Compile Include="BLL\Exceptions\WrongPasswordException.cs" />
+    <Compile Include="BLL\Models\User.cs" />
+    <Compile Include="BLL\Models\UserAuthenticationData.cs" />
+    <Compile Include="BLL\Models\UserRegistrationData.cs" />
     <Compile Include="BLL\Services\UserService.cs" />
     <Compile Include="DAL\Entities\FriendEntity.cs" />
     <Compile Include="DAL\Entities\MessageEntity.cs" />
